@@ -9,11 +9,12 @@ Whoo is a web application that allows you to create a profile, share information
 ### _Features_
 
 
+
 - Provides a platform for professionals to get in touch and collaborate!
 
 - Our easy to use messaging system allows users to chat with friends, start group chats and more.
 
-- Easily search for friends and colleagues and add them as a friend.
+- Easily search for friends and colleagues to add them as a friend.
 
 ## Table of Contents
 
