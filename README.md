@@ -1,10 +1,13 @@
 ## **Whoo**
 
+
+
 Whoo is a web application that allows you to create a profile, share information about yourself, message friends and start group chats.
 
-<img src="./assets/player.JPG" alt="player" width="800"/>
+<img src="./front-end/src/assets/images/profile-sample.png" alt="getting started" width="800"/>
 
 ### _Features_
+
 
 - Provides a platform for professionals to get in touch and collaborate!
 
@@ -13,6 +16,8 @@ Whoo is a web application that allows you to create a profile, share information
 - Easily search for friends and colleagues and add them as a friend.
 
 ## Table of Contents
+
+
 
 - [**Whoo**](#listening-lobby)
   - [_Features_](#features)
@@ -25,21 +30,25 @@ Whoo is a web application that allows you to create a profile, share information
 
 ## Usage
 
+
+
 1. Start by clickng the _Sign Up_ button on the homepage.
-1. Create a profile or use our **test** profile to tour the site.
-1. Choose a username and tell us your name.
+2. Create a profile or use our **test** profile to tour the site.
+3. Choose a username and tell us your name.
 
-  <img src="./assets/service-select.gif" alt="service select" width="300"/>
+  <img src="./front-end/src/assets/images/Animation.gif" alt="getting started" width="600"/>
 
-3. Congrats, you've created a profile! 🎉 Now tell others about yourself and share your qualifications!
-4. Go to the search page to search for friends, colleagues and other professionals.
+4. Congrats, you've created a profile! 🎉 Now tell others about yourself and share your qualifications!
+5. Go to the search page to search for friends, colleagues and other professionals.
 
-   <img src="./assets/search.gif" alt="search-gif" width="700"/>
+  <img src="./front-end/src/assets/images/Animation-2.gif" alt="getting started" width="600"/>
 
-5. Press the + button and you're now friends! 🎶
-6. Lets get in touch with your new friend by clicking on the _Message_ button, typing in your message, and clicking send.
+6. Press the + button and you're now friends! 🎶
+7. Lets get in touch with your new friend by clicking on the _Message_ button, typing in your message, and clicking send.
 
 ## Built With
+
+
 
 - JavaScript
 - React
@@ -54,12 +63,16 @@ Whoo is a web application that allows you to create a profile, share information
 
 ## Future Updates
 
+
+
 - [x] Group Chats - _Easily start a group conversation with multiple users._
 - [ ] Orginazation profiles - _Allow users to create an orginzation page to share their cause with others._
 - [ ] User and orginazation posts - _Create a public space to allow users and orginzations to share posts with each other._
 - [ ] Mobile App
 
 ## Authors
+
+
 
 **Alexis Martin**
 
