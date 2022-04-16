@@ -1,14 +1,10 @@
 ## **Whoo**
 
-
-
-Whoo is a web application that allows you to create a profile, share information about yourself, message friends and start group chats.
+Whoo is a web application that allows you to create a custom profile, share information about yourself, add friends, message users and start group chats.
 
 <img src="./front-end/src/assets/images/profile-sample.png" alt="getting started" width="800"/>
 
 ### _Features_
-
-
 
 - Provides a platform for professionals to get in touch and collaborate!
 
@@ -17,8 +13,6 @@ Whoo is a web application that allows you to create a profile, share information
 - Easily search for friends and colleagues to add them as a friend.
 
 ## Table of Contents
-
-
 
 - [**Whoo**](#listening-lobby)
   - [_Features_](#features)
@@ -30,8 +24,6 @@ Whoo is a web application that allows you to create a profile, share information
 - [Support](#support)
 
 ## Usage
-
-
 
 1. Start by clickng the _Sign Up_ button on the homepage.
 2. Create a profile or use our **test** profile to tour the site.
@@ -49,8 +41,6 @@ Whoo is a web application that allows you to create a profile, share information
 
 ## Built With
 
-
-
 - JavaScript
 - React
 - Redux
@@ -64,16 +54,12 @@ Whoo is a web application that allows you to create a profile, share information
 
 ## Future Updates
 
-
-
 - [x] Group Chats - _Easily start a group conversation with multiple users._
 - [ ] Orginazation profiles - _Allow users to create an orginzation page to share their cause with others._
 - [ ] User and orginazation posts - _Create a public space to allow users and orginzations to share posts with each other._
 - [ ] Mobile App
 
 ## Authors
-
-
 
 **Alexis Martin**
 
