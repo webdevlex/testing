@@ -1,6 +1,6 @@
 ## **Whoo**
 
-Whoo is a web application that allows you to create a custom profile, share information about yourself, add friends, message users and start group chats.
+Whoo is a mock social media web application that allows you to create a custom profile, share information about yourself, add friends, message users and start group chats.
 
 <img src="./front-end/src/assets/images/profile-sample.png" alt="getting started" width="800"/>
 
@@ -37,7 +37,7 @@ Whoo is a web application that allows you to create a custom profile, share info
   <img src="./front-end/src/assets/images/Animation-2.gif" alt="getting started" width="600"/>
 
 6. Press the + button and you're now friends! 🎶
-7. Lets get in touch with your new friend by clicking on the _Message_ button, typing in your message, and clicking send.
+7. Get in touch with your new friend by clicking on the _Message_ button, typing in your message, and clicking send.
 
 ## Built With
 
