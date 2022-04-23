@@ -26,32 +26,27 @@ function Profile({
 	const pictureUrl = profileBeingViewed.pictureUrl || '';
 	const { username } = useParams();
 	const [width] = useWindowSize();
-	const [ran, setRan] = useState(false);
 
 	useEffect(() => {
-		if (!ran) {
-			getProfile(username);
-			setRan(true);
-		}
-
+		getProfile(username);
 		getMyProfile();
-	}, []);
+	}, [username]);
 
 	return (
-		<div className="profile-page">
-			{isLoading || profileBeingViewedLoading || profileLoading || !ran ? (
+		<div className='profile-page'>
+			{isLoading || profileBeingViewedLoading || profileLoading ? (
 				<Loading />
 			) : (
-				<div className="profile-page-inner-container">
+				<div className='profile-page-inner-container'>
 					{width < 769 && (
-						<div className="profile-picture-container">
+						<div className='profile-picture-container'>
 							<UserImage src={pictureUrl} />
 						</div>
 					)}
 
 					<ProfileInfoProvider>
 						<MainInfo />
-						<InfoSections className="info-sections" />
+						<InfoSections className='info-sections' />
 						<SideInfo />
 					</ProfileInfoProvider>
 				</div>

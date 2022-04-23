@@ -24,28 +24,28 @@ function ProfileDisplay({ userProfile, profile, displayFriendButtons }) {
 	const userContacts = myProfile.contacts || [];
 
 	return (
-		<li className="search-results-profile-display">
-			<div className="profile-display-inner-left-container">
-				<div className="profile-display-image-container">
+		<li className='search-results-profile-display'>
+			<div className='profile-display-inner-left-container'>
+				<div className='profile-display-image-container'>
 					<UserImage src={searchResultsPictureUrl} />
 				</div>
 
-				<div className="profile-display-text-container">
-					<div className="name-and-username-wrapper">
-						<Link className="button-to-profile" to={searchResultsProfileUrl}>
+				<div className='profile-display-text-container'>
+					<div className='name-and-username-wrapper'>
+						<Link className='button-to-profile' to={searchResultsProfileUrl}>
 							{searchResultsFullName}
 						</Link>
-						<p className="profile-username">{`@${searchResultsUserName}`}</p>
+						<p className='profile-username'>{`@${searchResultsUserName}`}</p>
 					</div>
-					<p className="profile-job-title">{searchResultsJobTitle}</p>
+					<p className='profile-job-title'>{searchResultsJobTitle}</p>
 				</div>
 			</div>
 
 			{displayFriendButtons && (
-				<div className="profile-display-inner-right-container">
+				<div className='profile-display-inner-right-container'>
 					{profile.addContactAlert === searchResultsUserName && (
-						<p className="added-alert">
-							Added <FaCheckCircle className="icon" />
+						<p className='added-alert'>
+							Added <FaCheckCircle className='icon' />
 						</p>
 					)}
 					{userContacts.some(
