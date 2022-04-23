@@ -28,6 +28,27 @@ import setDefaults from './defaults';
 
 let clearAlertsTimeout = null;
 
+export const updateProfileImage = () => async (dispatch) => {
+	try {
+		let res = await axios.get('/api/profile', {
+			params: { username: 'webdevlex' },
+		});
+		console.log(res.data.pictureUrl);
+
+		let body = {
+			url: res.data.pictureUrl,
+		};
+		const header = {
+			headers: {
+				'Content-Type': 'application/json',
+			},
+		};
+		res = await axios.post('/api/profile/test', body, header);
+	} catch (err) {
+		console.log(err);
+	}
+};
+
 export const profileDoneLoading = () => (dispatch) => {
 	dispatch({
 		type: DONE_LOADING_USER_PROFILE,
@@ -251,7 +272,6 @@ export const saveProfile = (formData, formName) => async (dispatch) => {
 
 	try {
 		const res = await axios.post(endPoint, body, header);
-		console.log(res);
 		dispatch({
 			type: PROFILE_SAVED,
 			payload: res.data,

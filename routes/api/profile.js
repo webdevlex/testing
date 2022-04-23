@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const auth = require('../../middleware/auth');
 const Profile = require('../../models/Profile');
+const Thread = require('../../models/Thread'); // DELETE
 const { check, validationResult } = require('express-validator');
 
 const ALLOW_TEST_PROFILE_CHANGES = false;
@@ -9,6 +10,31 @@ function testProfile(id) {
 	if (ALLOW_TEST_PROFILE_CHANGES) return false;
 	return id === '61f091ce9cbbc5dde3a66756';
 }
+
+router.post('/test', async (req, res) => {
+	try {
+		const thread = await Thread.findByIdAndUpdate('61f091fc9cbbc5dde3a66794', {
+			$set: {
+				memberProfiles: [
+					{
+						user: '61e352500d22e1189a6c92b0',
+						username: 'webdevlex',
+						fullName: 'Alexis Martin',
+						pictureUrl: req.body.url,
+						jobTitle: 'Full Stack Web Developer',
+					},
+					{
+						user: '61f091ce9cbbc5dde3a66756',
+						username: 'TestAccount',
+						fullName: 'Andras Arato',
+					},
+				],
+			},
+		});
+	} catch (err) {
+		res.status(500).send('Server Error');
+	}
+});
 
 // @route    Get api/profile
 // @desc     Get specific profiles
