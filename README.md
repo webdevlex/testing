@@ -31,12 +31,12 @@ Whoo is a mock social media web application that allows you to create a custom p
 
   <img src="./front-end/src/assets/images/Animation.gif" alt="getting started" width="600"/>
 
-4. Congrats, you've created a profile! 🎉 Now tell others about yourself and share your qualifications!
+4. Congrats, you've created a profile! 🎉 Now tell others about yourself and share your qualifications.
 5. Go to the search page to search for friends, colleagues and other professionals.
 
   <img src="./front-end/src/assets/images/Animation-2.gif" alt="getting started" width="600"/>
 
-6. Press the + button and you're now friends! 🎶
+6. Press the + button and you're now friends! 👋
 7. Get in touch with your new friend by clicking on the _Message_ button, typing in your message, and clicking send.
 
 ## Built With
