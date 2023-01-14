@@ -11,7 +11,7 @@ function testProfile(id) {
 	return id === '61f091ce9cbbc5dde3a66756';
 }
 
-router.post('/test', async (req, res) => {
+router.post('/updateMessageProfiles', async (req, res) => {
 	try {
 		const thread = await Thread.findByIdAndUpdate('61f091fc9cbbc5dde3a66794', {
 			$set: {

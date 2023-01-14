@@ -2,6 +2,8 @@
 
 Whoo is a mock social media web application that allows you to create a custom profile, share information about yourself, add friends, message users and start group chats.
 
+url: https://whoo-are-you.herokuapp.com/
+
 <img src="./front-end/src/assets/images/profile-sample.png" alt="getting started" width="800"/>
 
 ### _Features_
@@ -65,4 +67,4 @@ Whoo is a mock social media web application that allows you to create a custom p
 
 - [GitHub Profile](https://github.com/webdevlex)
 - [Personal Website](https://webdevlex.com/)
-- [Email: webdeveloperlex@gmail.<area>com ✉️](mailto:webdeveloperlex@gmail.com?subject=Listening-Lobby 'webdeveloperlex@gmail.com')
+- [Email: webdeveloperlex@gmail.<area>com ✉️](mailto:webdeveloperlex@gmail.com?subject=Whoo-Are-You 'webdeveloperlex@gmail.com')

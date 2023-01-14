@@ -43,7 +43,7 @@ export const updateProfileImage = () => async (dispatch) => {
 				'Content-Type': 'application/json',
 			},
 		};
-		res = await axios.post('/api/profile/test', body, header);
+		res = await axios.post('/api/profile/updateMessageProfiles', body, header);
 	} catch (err) {
 		console.log(err);
 	}
